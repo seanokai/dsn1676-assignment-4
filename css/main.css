@@ -1,26 +1,28 @@
 html {
-  background-color: #8B7D7B;
-  font: normal 100%/2 Georgia,serif;
+  background-color: #CD5B45;
+
+  font: normal 100%/1.5 Georgia,serif;
 }
 
 body {
   margin: 2em auto;
   max-width: 20em;
- 
-  padding-bottom: 1.5rem;
+  padding-bottom: 1rem;
 
   background-color: #fff;
   border: 1px solid #ccc;
-  box-shadow: 0 1px 5px #CD5B45;
+  box-shadow: 0 1px 5px #666;
+  border-radius: 0.5em;
 }
 
 h1 {
   margin-top: 0;
 
-  background-color: black;
+  background-color: #B13E0F;
 
   font-weight: normal;
   text-align: center;
+  border-radius: 0.5em;
 }
 
 h2 {
@@ -28,8 +30,13 @@ h2 {
   padding: 0 1rem;
 
   font-weight: normal;
+  text-align: center;
 }
 
+dd {
+  margin: 0;
+  float: center;
+}
 
 dl {
   margin: 0;
@@ -41,11 +48,5 @@ dt {
   clear: left;
   float: left;
   width: 9em;
-
   color: #666;
-}
-
-dd {
-  margin: 0;
-  float: left;
 }
