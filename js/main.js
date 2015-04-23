@@ -32,20 +32,13 @@ var writeBerries = function (berries) {
     var shrub = (item.onShrub) ? 'Yes' : 'No';
 
     document.write('<h2>' + item.name + '</h2>');
-    
     document.write('<dl>');
-    
     document.write('<dt>Grows on a shrub?</dt><dd>' + shrub + '</dd>');
-    
     document.write('<dt>Energy</dt><dd>' + item.energy + ' kJ</dd>');
-    
     document.write('<dt>Carbohydrates</dt><dd>' + item.carbs + ' g</dd>');
-    
     document.write('<dt>Protein</dt><dd>' + item.protein + ' g</dd>');
-    
     document.write('</dl>');
   });
 }
 
 writeBerries([blueberries, grapes, redCurrant]);
-
