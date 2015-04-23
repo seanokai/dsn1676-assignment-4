@@ -1,0 +1,18 @@
+h1 {
+    color: white;
+    background-color: black;
+    padding:.5em 0 .5em .25em;
+}
+
+dt {
+    font-weight: bold;
+}
+
+dd {
+    font-weight: lighter;
+    margin:0;
+    margin-bottom:1em;
+}
+html {
+    background-color: gray;
+}
